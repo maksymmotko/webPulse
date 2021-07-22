@@ -11,6 +11,10 @@
         padding-left: 20px;
         padding-right: 20px;
     }
+    .consultation {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
 }
 
 @media (max-width: 767px) {
@@ -42,6 +46,20 @@
     .advantages__item {
         margin-top: 45px;
     }
+
+    .title {
+        &_left {
+            text-align: center;
+            font-size: 24px;
+            line-height: 45px;
+        }
+    }
+
+    .consultation__descr {
+        text-align: center;
+        font-size: 18px;
+    }
+
 }
 
 @media (max-width: 575px) {
@@ -85,5 +103,21 @@
     }
     .promo__wrapper {
         margin-top: 40px;
+    }
+
+    .title {
+        &_left {
+            font-size: 18px;
+            line-height: 35px;
+        }
+    }
+
+    .consultation {
+        padding-top: 50px;
+    }
+
+    .consultation__descr {
+        text-align: center;
+        font-size: 14px;
     }
 }
