@@ -193,4 +193,19 @@
             padding: 25px 38px 35px 38px;
         }
     }
+
+    .modal {
+        width: 310px;
+        padding: 21px 14px 14px 14px;
+        &__subtitle {
+            font-size: 17px;
+        }
+        &__descr {
+            font-size: 13px;
+        }
+        &__close {
+            right: 0px;
+            top: -40px;
+        }
+    }
 }
